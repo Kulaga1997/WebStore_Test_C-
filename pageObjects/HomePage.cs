@@ -13,7 +13,5 @@ namespace TestsByKonrad.pageObjects
         {
             clickElement(signInBtn);
         }
-
-       
     }
 }

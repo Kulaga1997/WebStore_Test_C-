@@ -27,7 +27,6 @@ namespace TestsByKonrad.automationFramework
         public static readonly String paymentMethodBankWire = "Pay by check";
         public static readonly String orderStatusMessage = "Your order on My Store is complete.";
 
-
         //PRODUCT DATA
         public static readonly String productName = "Dress";
         public static readonly String productFullName = "Printed Summer Dress";

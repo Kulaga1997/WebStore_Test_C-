@@ -3,6 +3,8 @@ using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Firefox;
 using OpenQA.Selenium.Opera;
 using System;
+using WebDriverManager;
+using WebDriverManager.DriverConfigs.Impl;
 using System.Collections.Generic;
 using System.Text;
 
@@ -17,7 +19,8 @@ namespace TestsByKonrad.testUtility
                 case "Chrome":
                     {
                         Console.WriteLine("Initializing ChromeDriver");
-                        setDriver(new ChromeDriver("C:\\chromedriver"));
+                        new DriverManager().SetUpDriver(new ChromeConfig());
+                        setDriver(new ChromeDriver());
                         break;
                     }
                 case "Firefox":

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\source\\repos\\TestsByKonrad\\TestsByKonrad\\TestsByKonrad.csproj": {}
+    "C:\\Users\\user\\source\\repos\\Kulaga1997\\WebStore_Test_Cs\\TestsByKonrad.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\source\\repos\\TestsByKonrad\\TestsByKonrad\\TestsByKonrad.csproj": {
+    "C:\\Users\\user\\source\\repos\\Kulaga1997\\WebStore_Test_Cs\\TestsByKonrad.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\source\\repos\\TestsByKonrad\\TestsByKonrad\\TestsByKonrad.csproj",
+        "projectUniqueName": "C:\\Users\\user\\source\\repos\\Kulaga1997\\WebStore_Test_Cs\\TestsByKonrad.csproj",
         "projectName": "TestsByKonrad",
-        "projectPath": "C:\\Users\\user\\source\\repos\\TestsByKonrad\\TestsByKonrad\\TestsByKonrad.csproj",
+        "projectPath": "C:\\Users\\user\\source\\repos\\Kulaga1997\\WebStore_Test_Cs\\TestsByKonrad.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\source\\repos\\TestsByKonrad\\TestsByKonrad\\obj\\",
+        "outputPath": "C:\\Users\\user\\source\\repos\\Kulaga1997\\WebStore_Test_Cs\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -71,6 +71,10 @@
             "WebDriver.ChromeDriver.win32": {
               "target": "Package",
               "version": "[88.0.4324.96, )"
+            },
+            "WebDriverManager": {
+              "target": "Package",
+              "version": "[2.11.1, )"
             }
           },
           "imports": [

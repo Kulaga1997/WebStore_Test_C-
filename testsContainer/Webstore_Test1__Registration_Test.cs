@@ -32,8 +32,6 @@ namespace TestsByKonrad
 
             Console.WriteLine("Step 8\t Use previously created credentials to log into store");
             Assert.AreEqual(TestData.profileHeader, mainPage.getAccountHeader());
-
-            Console.WriteLine("Step 9\t SUCCESS");
         }
     }
 }

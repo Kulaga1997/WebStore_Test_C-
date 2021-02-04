@@ -19,11 +19,6 @@ namespace TestsByKonrad.pageObjects
         {
             hoverOnElement(By.XPath("(//h5[@itemprop='name']/a[@title='" + productName + "' and @class='product-name'])[1]"));
             clickElement(By.XPath("(//*[@title='" + productName + "']/../following-sibling::div[@class='button-container']/a[@title='Add to cart'])[1]/span"));
-            //clickProceedButton();
-            //clickProceedWithCart();
-            //clickProceedWithCart();
-            //setTermsServiceCbox();
-            //clickProceedButton();
         }
 
         public void clickProceedButton()

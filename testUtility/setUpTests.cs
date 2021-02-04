@@ -15,8 +15,8 @@ namespace TestsByKonrad.testUtility
         protected RegistrationPage registrationPage = new RegistrationPage();
         protected MainPage mainPage = new MainPage();
         protected ShoppingPage shoppingPage = new ShoppingPage();
-
         protected static IWebDriver driver;
+
         [SetUp]
         public void openBrowser()
         {
